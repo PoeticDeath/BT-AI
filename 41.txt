@@ -1,0 +1,104 @@
+Using TensorFlow backend.
+Total Tokens: 359086
+Unique Tokens: 21099
+Total Sequences: 358885
+2022-12-20 19:40:34.044026: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1030] Found device 0 with properties:
+name: NVIDIA GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.392
+pciBusID: 0000:06:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2022-12-20 19:40:34.106299: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1030] Found device 1 with properties:
+name: Tesla K40m major: 3 minor: 5 memoryClockRate(GHz): 1.006
+pciBusID: 0000:05:00.0
+totalMemory: 11.25GiB freeMemory: 10.38GiB
+2022-12-20 19:40:34.106702: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Device peer to peer matrix
+2022-12-20 19:40:34.107182: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1051] DMA: 0 1
+2022-12-20 19:40:34.107367: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1061] 0:   Y N
+2022-12-20 19:40:34.107533: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1061] 1:   N Y
+2022-12-20 19:40:34.107742: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1107] Ignoring gpu device (device: 0, name: NVIDIA GeForce GTX 1050 Ti, pci bus id: 0000:06:00.0, compute capability: 6.1) with Cuda multiprocessor count: 6. The minimum required count is 8. You can adjust this requirement with the env var TF_MIN_GPU_MULTIPROCESSOR_COUNT.
+2022-12-20 19:40:34.108026: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 1, name: Tesla K40m, pci bus id: 0000:05:00.0, compute capability: 3.5)
+Epoch 1/1
+358885/358885 [==============================] - 1548s 4ms/step - loss: 6.7524 - acc: 0.0713
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 6.4825 - acc: 0.0900
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 6.2796 - acc: 0.1013
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 6.0724 - acc: 0.1107
+Epoch 1/1
+358885/358885 [==============================] - 1544s 4ms/step - loss: 5.8870 - acc: 0.1189
+Epoch 1/1
+358885/358885 [==============================] - 1544s 4ms/step - loss: 5.7111 - acc: 0.1281
+Epoch 1/1
+358885/358885 [==============================] - 1540s 4ms/step - loss: 5.5389 - acc: 0.1366
+Epoch 1/1
+358885/358885 [==============================] - 1535s 4ms/step - loss: 5.3464 - acc: 0.1447
+Epoch 1/1
+358885/358885 [==============================] - 1534s 4ms/step - loss: 5.1554 - acc: 0.1531
+Epoch 1/1
+358885/358885 [==============================] - 1534s 4ms/step - loss: 4.9655 - acc: 0.1608
+Epoch 1/1
+358885/358885 [==============================] - 1535s 4ms/step - loss: 4.7848 - acc: 0.1681
+Epoch 1/1
+358885/358885 [==============================] - 1535s 4ms/step - loss: 4.6230 - acc: 0.1774
+Epoch 1/1
+358885/358885 [==============================] - 1536s 4ms/step - loss: 4.4892 - acc: 0.1873
+Epoch 1/1
+358885/358885 [==============================] - 1536s 4ms/step - loss: 4.3448 - acc: 0.1990
+Epoch 1/1
+358885/358885 [==============================] - 1536s 4ms/step - loss: 4.2305 - acc: 0.2107
+Epoch 1/1
+358885/358885 [==============================] - 1535s 4ms/step - loss: 4.1327 - acc: 0.2209
+Epoch 1/1
+358885/358885 [==============================] - 1536s 4ms/step - loss: 3.9827 - acc: 0.2353
+Epoch 1/1
+358885/358885 [==============================] - 1532s 4ms/step - loss: 4.0053 - acc: 0.2343
+Epoch 1/1
+358885/358885 [==============================] - 1532s 4ms/step - loss: 3.8753 - acc: 0.2489
+Epoch 1/1
+358885/358885 [==============================] - 1538s 4ms/step - loss: 3.7586 - acc: 0.2622
+Epoch 1/1
+358885/358885 [==============================] - 1534s 4ms/step - loss: 3.6966 - acc: 0.2697
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 3.6041 - acc: 0.2807
+Epoch 1/1
+358885/358885 [==============================] - 1547s 4ms/step - loss: 3.6357 - acc: 0.2757
+Epoch 1/1
+358885/358885 [==============================] - 1541s 4ms/step - loss: 3.5798 - acc: 0.2818
+Epoch 1/1
+358885/358885 [==============================] - 1538s 4ms/step - loss: 3.4560 - acc: 0.2991
+Epoch 1/1
+358885/358885 [==============================] - 1548s 4ms/step - loss: 3.3706 - acc: 0.3112
+Epoch 1/1
+358885/358885 [==============================] - 1534s 4ms/step - loss: 3.2819 - acc: 0.3236
+Epoch 1/1
+358885/358885 [==============================] - 1541s 4ms/step - loss: 3.2165 - acc: 0.3331
+Epoch 1/1
+358885/358885 [==============================] - 1532s 4ms/step - loss: 3.1718 - acc: 0.3403
+Epoch 1/1
+358885/358885 [==============================] - 1534s 4ms/step - loss: 3.1815 - acc: 0.3383
+Epoch 1/1
+358885/358885 [==============================] - 1535s 4ms/step - loss: 3.0427 - acc: 0.3595
+Epoch 1/1
+358885/358885 [==============================] - 1546s 4ms/step - loss: 3.1708 - acc: 0.3398
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 3.0748 - acc: 0.3509
+Epoch 1/1
+358885/358885 [==============================] - 1542s 4ms/step - loss: 2.9167 - acc: 0.3791
+Epoch 1/1
+358885/358885 [==============================] - 1543s 4ms/step - loss: 2.8723 - acc: 0.3873
+Epoch 1/1
+358885/358885 [==============================] - 1543s 4ms/step - loss: 2.9075 - acc: 0.3795
+Epoch 1/1
+358885/358885 [==============================] - 1543s 4ms/step - loss: 3.1663 - acc: 0.3325
+Epoch 1/1
+358885/358885 [==============================] - 1543s 4ms/step - loss: 2.9891 - acc: 0.3620
+Epoch 1/1
+358885/358885 [==============================] - 1543s 4ms/step - loss: 2.8962 - acc: 0.3787
+Epoch 1/1
+358885/358885 [==============================] - 1544s 4ms/step - loss: 2.8273 - acc: 0.3897
+Epoch 1/1
+358885/358885 [==============================] - 1545s 4ms/step - loss: 2.7623 - acc: 0.4009
+Epoch 1/1
+358885/358885 [==============================] - 1545s 4ms/step - loss: 2.7033 - acc: 0.4105
+Epoch 1/1
+358885/358885 [==============================] - 1546s 4ms/step - loss: 2.6501 - acc: 0.4196
